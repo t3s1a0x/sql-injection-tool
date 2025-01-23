@@ -27,7 +27,7 @@ This is an advanced tool designed to test for SQL injection vulnerabilities in w
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/sql-injection-tool.git
+    git clone https://github.com/e5t3hb4r47/sql-injection-tool.git
     cd sql-injection-tool
     ```
 2. Install the required dependencies:
