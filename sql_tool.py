@@ -85,7 +85,7 @@ def test_sql(payload, base_url, method, headers, data, proxy, progress_bar):
             progress_bar.update(1)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Advanced SQL Injection Testing Tool - Created by Ali Qassem @e5t3hb4r47")
+    parser = argparse.ArgumentParser(description="Advanced SQL Injection Testing Tool - Created by Ali Qassem @t3s1a0x")
     parser.add_argument("-u", "--url", required=True, help="The base URL to test, e.g., 'https://example.com/page?id='")
     parser.add_argument("-p", "--payload", required=True, help="The file containing SQL payloads to test")
     parser.add_argument("--method", choices=["GET", "POST"], default="GET", help="HTTP method to use (default: GET)")
@@ -108,7 +108,7 @@ if __name__ == "__main__":
         print(f"{Fore.RED}[!] No payloads found. Exiting...{Style.RESET_ALL}")
         sys.exit(1)
 
-    print(f"{Fore.MAGENTA}[#] Advanced SQL Injection Testing Tool - Created by Ali Qassem @e5t3hb4r47 [#]{Style.RESET_ALL}")
+    print(f"{Fore.MAGENTA}[#] Advanced SQL Injection Testing Tool - Created by Ali Qassem @t3s1a0x [#]{Style.RESET_ALL}")
     print(f"{Fore.BLUE}[*] Loaded {len(payloads)} payloads from {payload_file}{Style.RESET_ALL}")
     print(f"{Fore.BLUE}[*] Starting SQL Injection tests...\n{Style.RESET_ALL}")
 
