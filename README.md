@@ -1,6 +1,6 @@
 # Advanced SQL Injection Testing Tool
 
-### Created by: Ali Qassem (@e5t3hb4r47)
+### Created by: Ali Qassem (@t3s1a0x)
 
 ## Description
 This is an advanced tool designed to test for SQL injection vulnerabilities in web applications. The tool utilizes a variety of techniques, including WAF (Web Application Firewall) bypass methods, to identify and report potential vulnerabilities. It supports multi-threaded execution, customizable payloads, and HTTP methods.
@@ -27,7 +27,7 @@ This is an advanced tool designed to test for SQL injection vulnerabilities in w
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/e5t3hb4r47/sql-injection-tool.git
+    git clone https://github.com/t3s1a0x/sql-injection-tool.git
     cd sql-injection-tool
     ```
 2. Install the required dependencies:
@@ -89,4 +89,4 @@ This tool is licensed under the MIT License. See the `LICENSE` file for more det
 ---
 
 ## Author
-Ali Qassem (@e5t3hb4r47)
+Ali Qassem (@t3s1a0x)
